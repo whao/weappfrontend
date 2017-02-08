@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="nav-top">
+    
+  </view>
+  <view wx:for="{{[0, 1, 2, 3, 4]}}"> {{item}} </view>
+  <view wx:for="{{array}}">
+    {{index}}: {{item.message}}
+  </view>
+</view>
